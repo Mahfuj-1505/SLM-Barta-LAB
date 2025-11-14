@@ -45,7 +45,10 @@ cd SLM-Barta-LAB
 pip install torch tiktoken numpy tqdm matplotlib
 ```
 
-### 3. Download Dataset
+**You can skip these steps and take the trained model and use it.**
+To do so check the [Inference](#inference) section.
+
+### 3. Download Dataset 
 Download the TinyStories dataset in binary format:
 - `train.bin` - Training data (~472M tokens)
 - `validation.bin` - Validation data (~4.7M tokens)
